@@ -8,9 +8,10 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/api/stream/:movieID' element={''}/>
         </Routes>
-    </BrowserRouter>
+      </BrowserRouter>
   );
 }
 

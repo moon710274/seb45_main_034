@@ -4,6 +4,13 @@ export type Movie = {
     genre: string;
   };
   
-  export type MoviesResponse = {
+export type MoviesResponse = {
     movies: Movie[];
   };
+
+export type HistoryRecord = {
+    userID: number;
+    movieID: number;
+    lastPosition: number;
+    timestamp: Date;
+  }
